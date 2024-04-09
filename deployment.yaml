@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: grid-deploy
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: grid-app
+  template:
+    metadata:
+      labels:
+        app: grid-app
+    spec:
+      containers:
+        - name: grid-container
+          image: hasinatiana/grid
+          ports:
+            - containerPort: 5173
