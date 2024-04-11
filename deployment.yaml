@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: grid-container
-          image: hasinatiana/grid
+          image: hasinatiana/grid:latest
           ports:
             - containerPort: 5173
