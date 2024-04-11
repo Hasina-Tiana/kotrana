@@ -1,16 +1,21 @@
+import Navbar from "./components/Navbar";
+import sary from './assets/image/friends.png'
+
 function App() {
   return (
     <>
-      <div className="flex flex-col justify-center items-center h-screen">
-        <div className="*:text-center bg-emerald-600 rounded-md py-2 px-6 shadow-lg shadow-slate-600">
-          <h1 className="text-3xl font-bold text-[#ddd] underline">
-            Projet GRID
-          </h1>
-          <p className="text-xl text-[#ccc]">Avec Docker Desktop</p>
-          <p className="text-[#bbb]">Création d&#39;un pipeline CI/CD</p>
-          <p className="text-lg underline">The team:</p>
-          <p className="text-black">Henintsoa - Hasina - Toky - Robnelito</p>
-          <p>🤣🤣🤣</p>
+      <Navbar/>
+      <div className="w-full px-8 flex items-center justify-center mt-10">
+        <div className="w-1/2 space-y-12">
+          <h1 className="text-8xl text-[#6B4D97]">Let&#39;s be friend !</h1>
+          <p className="text-justify text-xl">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit maxime ullam officia reiciendis iusto, laboriosam perferendis mollitia accusantium ipsum! Repellendus accusamus veritatis non asperiores dignissimos quo maiores voluptas inventore dicta.</p>
+          <div className="flex justify-center space-x-20 *:text-xl">
+            <p className="bg-[#6B4D97] text-white px-4 py-2 rounded">Explore</p>
+            <p className="text-[#6B4D97] px-4 py-2 rounded shadow shadow-slate-500">Learn more</p>
+          </div>
+        </div>
+        <div className="w-1/2 flex justify-center items-center">
+          <img src={sary} alt="" />
         </div>
       </div>
     </>
