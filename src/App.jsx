@@ -10,6 +10,7 @@ function App() {
           <p className="text-[#bbb]">Création d&#39;un pipeline CI/CD</p>
           <p className="text-lg underline">The team:</p>
           <p className="text-black">Henintsoa - Hasina - Toky - Robnelito</p>
+          <p>🤣🤣🤣</p>
         </div>
       </div>
     </>
