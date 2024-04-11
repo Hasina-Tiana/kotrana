@@ -8,7 +8,7 @@ function App() {
           </h1>
           <p className="text-xl text-[#ccc]">Avec Docker Desktop</p>
           <p className="text-[#bbb]">Création d&#39;un pipeline CI/CD</p>
-          <p className="text-yellow-600">Henintsoa - Hasina - Toky - Robnelito</p>
+          <p className="text-purple-900">Henintsoa - Hasina - Toky - Robnelito</p>
         </div>
       </div>
     </>
