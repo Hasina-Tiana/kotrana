@@ -17,6 +17,7 @@ function App() {
         <div className="w-1/2 flex justify-center items-center">
           <img src={sary} alt="" />
         </div>
+        <p>Bonjour</p>
       </div>
     </>
   )
